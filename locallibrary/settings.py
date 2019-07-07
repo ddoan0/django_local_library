@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'ifyqt7wpugcu664exj5)g!#ff+upx*
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fierce-taiga-63558.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
